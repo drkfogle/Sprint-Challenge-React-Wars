@@ -5,7 +5,7 @@ import './Characters.css';
 function characters(props) {
     return (
         <div>
-            <div>
+            <div class='character_traits'>
                 <h3>{props.chars.name}</h3>
             <p class= 'height'>
             <strong>Height:{props.chars.height}</strong>
