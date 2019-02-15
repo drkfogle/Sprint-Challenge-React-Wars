@@ -1,9 +1,44 @@
-p{
+h3{
     background-color: black;
     color: white;
+    border-radius: 4px;
     margin: 16px 360px;
+}
+
+
+p{
+    margin: 16px 360px;
+    border-radius: 8px;
 }
 
 p.height{
     margin: auto 360px;
+    color: maroon;
+    background-color: aquamarine;
+    
+}
+
+p.mass{
+    color: blueviolet;
+    background-color: palegreen;
+}
+
+p.birth{
+    color: darkred;
+    background-color: olive;
+}
+
+p.height:hover{
+    background-color: maroon;
+    color:aquamarine;
+}
+
+p.mass:hover{
+    background-color: blueviolet;
+    color: palegreen;
+}
+
+p.birth:hover{
+    color:olive;
+    background-color: darkred;
 }

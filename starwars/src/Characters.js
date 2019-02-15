@@ -10,10 +10,10 @@ function characters(props) {
             <p class= 'height'>
             <strong>Height:{props.chars.height}</strong>
             </p>
-            <p>
+            <p class= 'birth'>
             <strong>Birth Year: {props.chars.birth_year}</strong>
             </p>
-            <p>
+            <p class= 'mass'>
             <strong>Mass: {props.chars.mass}</strong>
             </p>
             </div>
